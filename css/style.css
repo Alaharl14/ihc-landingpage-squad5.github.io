@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    background-color: #CCDB86;
+}
+
+
+header, footer{
+    width: 100%;
+    background-color: #67A030;
+}
+
+.f-img{
+    text-align: center;
+}
+
+.f1 , .f2{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.p-f1{
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Ubuntu;
+}
+
+.p-f2{
+    font-weight: normal;
+    font-size: 24px;
+    font-family: Ubuntu;
+}
+
+.twitter, .facebook, .instragram, .linkedin{
+    width: 120px;
+}
+
+.a-twitter, .a-facebook, .a-instragram, .a-linkedin {
+    padding-left: 100px;
+}
+
+.ul-nav{
+    margin: 0;
+    list-style: none;
+}
+
+.li-nav{
+    display: inline-block;
+    padding: 15px;
+}
+
+.li-nav a{
+    position: relative;
+    left: 150px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "Yatra One";
+}
+
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Yatra One";
+}
+
+h2{
+    font-weight: normal;
+    font-size: 40px;
+    font-family: "Yatra One";
+}
+
+.p-cercano{
+    font-size: 20px;
+    font-family: Ubuntu;
+}
+
+.img-logo{
+    width: 160px;
+    height: 80px;
+    position: absolute;
+}
+
+
+.p-alegado{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Ubuntu;
+
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.row2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.caja-parrafo{
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.caja-timer, .caja-Decisiones, .caja-Metodos{
+    flex: 1;
+    max-width: 100px;
+
+}
+.caja-timer img , .caja-Metodos img, .caja-Decisiones img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.caja-row2{
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.caja-row2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.caja1{
+    background: #7DE8EA;
+    opacity: 70% ;
+    text-align: center;
+    flex: 1;
+    max-width: 450px;
+    margin: 10px;
+}
+
+.caja1 img{
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+}
+
+.caja2{
+    text-align: left;
+    flex: 1;
+    max-width: 750px;
+    margin: 10px;
+}
+
+.caja3{
+    text-align: center;
+    flex: 1;
+    max-width: 800px;
+    margin: 10px;
+}
+
+.caja3 img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
+
+.caja-information{
+    background: #DCE0CD;
+    text-align: center;
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+.caja-imagen{
+    flex: 1;
+    max-width: 450px;
+    margin: 10px;
+}
+
+.caja-imagen img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.p-caja1{
+    font-size: 20px;
+    font-family: Ubuntu;
+}
+.p-funcion{
+    flex:1;
+    font-size: 30px;
+    font-family: Ubuntu;
+}
+
+.a-volver{
+    float: right;
+    padding: 15px 25px;
+    border-radius: 40px;
+    color: black;
+    background: #67A030;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Yatra One";
+}
+.p-preguntas{
+    font-size: 20px;
+    font-family: "Yatra One";
+}
+
+.p-caja1::first-line{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .caja1{
+        flex: 100%;
+        max-width: 450px;
+    }
+    .li-nav a{
+        font-size: 20px;
+    }
+
+    .caja-information{
+        flex: 100%;
+        max-width: 450px;
+    }
+    .caja-Metodos, .caja-Decisiones, .caja-timer{
+        flex: 100%;
+
+    }
+
+    .caja-imagen{
+        flex: 100%;
+        max-width: 450px;
+    }
+
+    .caja3 img{
+        display: none;
+    }
+
+}
+
+
